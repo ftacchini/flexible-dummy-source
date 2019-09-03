@@ -1,6 +1,6 @@
 {
   "name": "flexible-dummy-source",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A dummy event source for flexible",
   "main": "dist/src/index.js",
   "scripts": {
