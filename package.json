@@ -1,6 +1,6 @@
 {
   "name": "flexible-dummy-source",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "A dummy event source for flexible",
   "main": "dist/src/index.js",
   "scripts": {
@@ -17,20 +17,20 @@
     "url": "git+https://github.com/ftacchini/flexible-dummy-source.git"
   },
   "author": "ftacchini",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ftacchini/flexible-dummy-source/issues"
   },
   "homepage": "https://github.com/ftacchini/flexible-dummy-source#readme",
   "typings": "./dts/src/index.d.ts",
   "dependencies": {
-    "flexible-core": "0.0.10",
+    "flexible-core": "0.1.0",
     "inversify": "^5.0.1"
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.9",
     "jasmine": "^2.99.0",
     "rimraf": "^2.6.1",
-    "typescript": "^2.9.2"
+    "typescript": "^3.6.3"
   }
 }
