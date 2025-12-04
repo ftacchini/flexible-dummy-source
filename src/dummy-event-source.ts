@@ -2,15 +2,15 @@ import { FlexibleEventSource, FlexibleExtractor, FlexibleFilter, FlexibleEvent, 
 import { AsyncContainerModule } from "inversify";
 
 export class DummyEventSource implements FlexibleEventSource {
-    readonly container: AsyncContainerModule;
+    readonly container!: AsyncContainerModule;
     readonly availableExtractors: Type<FlexibleExtractor>[] = [];
     readonly availableFilters: Type<FlexibleFilter>[] = [];
-    
-    private eventHandler: (event: FlexibleEvent) => any; 
-    public running: boolean;
+
+    private eventHandler!: (event: FlexibleEvent) => any;
+    public running!: boolean;
 
     public constructor() {
-        
+
     }
 
     public async run(): Promise<boolean> {
